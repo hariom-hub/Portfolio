@@ -6,7 +6,7 @@ import { MainSection } from "./Components/MainSection";
 
 function App() {
   return (
-    <div className= "bg-yellow-200 ">
+    <div className>
       <Header />
       <MainSection/>
       <Footer/>
