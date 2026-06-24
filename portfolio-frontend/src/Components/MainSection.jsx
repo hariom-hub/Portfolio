@@ -78,18 +78,6 @@ export const MainSection = () => {
                <div id='coding-profiles'>
                     <h2 className='text-3xl font-semibold mb-6'>Coding Profiles</h2>
                </div>
-               <p>
-               Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nemo quam dolore libero eaque, maiores est sequi porro rerum mollitia, et saepe eos. Minima non sunt tenetur adipisci consequuntur corrupti.
-               Modi iste voluptatum in unde, eveniet dignissimos repellat perferendis. Cupiditate dolorem voluptate architecto! Praesentium eveniet dignissimos, voluptatem asperiores quisquam illum velit, amet corporis, voluptate consequuntur nam aut vitae nobis mollitia?
-               Ab nisi accusamus perferendis cumque natus tenetur rem dolore dignissimos amet, eos ut recusandae cupiditate inventore, dolorum debitis reprehenderit! Corporis tempora iure magnam amet itaque architecto, asperiores obcaecati earum. Earum?
-               Dolore, illo at accusantium dolores recusandae consectetur nihil eligendi maxime omnis officiis, fugiat id voluptatum illum quia eum quasi provident a? Hic repellendus totam dolor nisi possimus animi obcaecati ad!
-               Tempora reprehenderit, quibusdam adipisci perferendis molestiae officia minus perspiciatis ratione, facere illo dolor aliquam aut rem accusamus ab. Inventore repudiandae, odio voluptas rem deleniti facere molestiae asperiores rerum harum deserunt?
-               Maxime dolor debitis rem quia distinctio quos eaque aliquam optio perspiciatis consequatur at provident nam corporis recusandae obcaecati facere expedita, sequi amet! Quos, similique magni. Illo quibusdam illum saepe asperiores!
-               Alias, quaerat recusandae. Corporis tempora a sint aliquid sunt mollitia vitae dolor molestias possimus sapiente, cumque molestiae exercitationem deleniti debitis est obcaecati, ducimus cupiditate nihil eveniet nisi officiis eius! Nulla.
-               Neque porro consequatur ab alias tempore, in reprehenderit molestiae nobis soluta velit modi voluptatem. Illo dolorem ipsa aperiam. Suscipit architecto ipsa quam, explicabo doloribus exercitationem obcaecati necessitatibus dolorem reprehenderit id?
-               Illum natus beatae quasi voluptas dicta facilis. Explicabo sequi voluptatibus impedit exercitationem nostrum voluptate at nemo, nihil iure, libero aliquid excepturi itaque debitis veniam incidunt. Dolores ad iure debitis natus.
-               Adipisci tempora nulla repellendus assumenda aperiam! Voluptatibus nam temporibus reiciendis sint aut quidem dolorum rerum fugiat! Voluptate ipsa deleniti veniam laboriosam exercitationem, numquam reiciendis ea rem et vero odit dolore.uta, neque magnam aperiam alias ipsam excepturi dolor, voluptate culpa quae accusamus laudantium voluptates fugiat delectus?
-               </p>
 
           </section>
 
