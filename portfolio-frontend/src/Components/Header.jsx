@@ -13,7 +13,7 @@ export const Header = () => {
 
      return (
           <header className="fixed top-0 w-full z-[100] bg-white shadow">
-               <div className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-around">
+               <div className="max-w-6xl  mx-auto px-4 py-4 flex items-center justify-around">
 
                     {/* Logo */}
 
@@ -46,7 +46,6 @@ export const Header = () => {
                                    <a
                                         key={index}
                                         className="cursor-pointer hover:underline"
-                                        onClick={() => setIsOpen(false)}
                                    >
                                         {val}
                                    </a>

@@ -62,20 +62,26 @@ export const MainSection = () => {
                     </div>
                </div>
                
-               <div className="skills my-8">
+               <div className="skills my-10 text-center">
 
                     <h2 className="text-3xl  font-semibold mb-6">
-                         Skills
+                        Technical Skills
                     </h2>
+                    <div>
+                         <div></div>
+                         <div></div>
+                         <div></div>
+                         <div></div>
+                    </div>
 
                </div>
-               <div id='projects'>
+               <div className='projects my-10 text-center'>
                     <h2 className='text-3xl font-semibold mb-6'>Projects</h2>
                </div>
-               <div id='experience'>
+               <div className='experience my-10 text-center'>
                     <h2 className='text-3xl font-semibold mb-6'>Experience</h2>
                </div>
-               <div id='coding-profiles'>
+               <div className='experience my-10 text-center'>
                     <h2 className='text-3xl font-semibold mb-6'>Coding Profiles</h2>
                </div>
 
