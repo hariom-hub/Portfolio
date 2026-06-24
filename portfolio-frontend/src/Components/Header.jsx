@@ -1,18 +1,60 @@
+import { useState } from "react";
 
-export const Header = ()=>{
+export const Header = () => {
+     const [isOpen, setIsOpen] = useState(false);
 
-     return(
+     const headerVals = [
+          "About",
+          "Skills",
+          "Projects",
+          "Experience",
+          "Coding Profiles",
+     ];
 
-          <header>
-               <div className="w-full text-xl flex gap-10 my-3 h-15 border-2 border-black-200 rounded-lg items-center justify-evenly">
-                    <a className="hover:underline"> About</a>
-                    <a className="hover:underline">Experience</a>
-                    <a className="hover:underline">Projects</a>
-                    <a className="hover:underline">Skills</a>
-                    <a className="hover:underline">Contact</a>
-                    <a className="hover:underline">Coding Profiles</a>
+     return (
+          <header className="fixed top-0 w-full z-[100] bg-white shadow">
+               <div className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-around">
+
+                    {/* Logo */}
+
+                    {/* Desktop Menu */}
+                    <nav className="hidden md:flex gap-8">
+                         {headerVals.map((val, index) => (
+                              <a
+                                   key={index}
+                                   className="cursor-pointer hover:underline"
+                              >
+                                   {val}
+                              </a>
+                         ))}
+                    </nav>
+
+                    {/* Mobile Hamburger */}
+                    <button
+                         className="md:hidden text-2xl"
+                         onClick={() => setIsOpen(!isOpen)}
+                    >
+                         ☰
+                    </button>
                </div>
 
+               {/* Mobile Dropdown */}
+               {isOpen && (
+                    <nav className="md:hidden bg-white border-t">
+                         <div className="flex flex-col items-center py-4 gap-4">
+                              {headerVals.map((val, index) => (
+                                   <a
+                                        key={index}
+                                        className="cursor-pointer hover:underline"
+                                        onClick={() => setIsOpen(false)}
+                                   >
+                                        {val}
+                                   </a>
+                              ))}
+                         </div>
+                    </nav>
+               )}
+               
           </header>
-     )
-}
+     );
+};
